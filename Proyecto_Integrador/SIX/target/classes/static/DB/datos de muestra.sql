@@ -5,9 +5,9 @@ INSERT INTO roles (nombre) VALUES
 
 -- usuarios
 INSERT INTO usuarios (nombre, email, password_hash, rol_id) VALUES
-('Admin Sistema', 'admin@sistema.com', '$2a$10$xVrLJ4dXJJRGU3AyN7UOB.UGcZXRGYV1EB9N3hdWxYhS5KeI9BIjK', 1), -- password: admin123
-('Juan Vendedor', 'juan@sistema.com', '$2a$10$Vc7QVPX3zxJxAVyNUZy6B.6XvwRGX8VqUgqZH8OjZ.B9D0yHVpTfO', 2), -- password: juan123
-('Maria Vendedor', 'maria@sistema.com', '$2a$10$Vc7QVPX3zxJxAVyNUZy6B.6XvwRGX8VqUgqZH8OjZ.B9D0yHVpTfO', 2); -- password: maria123
+('Admin Sistema', 'admin@sistema.com', '$2a$10$xVrLJ4dXJJRGU3AyN7UOB.UGcZXRGYV1EB9N3hdWxYhS5KeI9BIjK', 1), 
+('Juan Vendedor', 'juan@sistema.com', '$2a$10$Vc7QVPX3zxJxAVyNUZy6B.6XvwRGX8VqUgqZH8OjZ.B9D0yHVpTfO', 2), 
+('Maria Vendedor', 'maria@sistema.com', '$2a$10$Vc7QVPX3zxJxAVyNUZy6B.6XvwRGX8VqUgqZH8OjZ.B9D0yHVpTfO', 2); 
 
 -- tipos de talla
 INSERT INTO tipos_talla (nombre) VALUES
